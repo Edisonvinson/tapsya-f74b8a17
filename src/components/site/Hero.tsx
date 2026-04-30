@@ -121,18 +121,18 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Arrow controls */}
+          {/* Arrow controls — positioned below content to avoid overlapping description */}
           <button
             onClick={prev}
             aria-label="Previous slide"
-            className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/25 hover:bg-white/40 backdrop-blur-sm flex items-center justify-center text-white transition"
+            className="absolute left-7 md:left-14 bottom-5 md:bottom-6 z-20 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/25 hover:bg-white/40 backdrop-blur-sm flex items-center justify-center text-white transition"
           >
             <ChevronLeft size={22} strokeWidth={2} />
           </button>
           <button
             onClick={next}
             aria-label="Next slide"
-            className="absolute right-3 md:right-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/25 hover:bg-white/40 backdrop-blur-sm flex items-center justify-center text-white transition"
+            className="absolute left-20 md:left-32 bottom-5 md:bottom-6 z-20 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/25 hover:bg-white/40 backdrop-blur-sm flex items-center justify-center text-white transition"
           >
             <ChevronRight size={22} strokeWidth={2} />
           </button>
