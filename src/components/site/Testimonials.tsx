@@ -117,7 +117,7 @@ export function Testimonials() {
                 style={{ flex: `0 0 ${cardBasis}%` }}
               >
                 <article
-                  className="mx-auto relative"
+                  className="mx-auto relative h-full w-full flex flex-col"
                   style={{
                     background: "#ffffff",
                     borderRadius: 16,
@@ -139,6 +139,7 @@ export function Testimonials() {
                       color: "#4a4a3a",
                       marginTop: 12,
                       fontStyle: "italic",
+                      flexGrow: 1,
                     }}
                   >
                     {t.text}
