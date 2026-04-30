@@ -90,11 +90,11 @@ export function Navbar() {
           <img
             src="/logo.webp"
             alt="Tapasya Spa & Wellness"
-            width={240}
-            height={96}
+            width={280}
+            height={120}
             decoding="async"
             fetchPriority="high"
-            className="h-[92px] md:h-[108px] w-auto block"
+            className="h-[112px] md:h-[132px] w-auto block"
             style={{ background: "transparent" }}
           />
         </a>

@@ -37,7 +37,7 @@ export function Footer() {
             loading="eager"
             decoding="async"
             fetchPriority="high"
-            className="h-[156px] md:h-[184px] w-auto block"
+            className="h-[190px] md:h-[224px] w-auto block"
             style={{ background: "transparent" }}
           />
           <p
