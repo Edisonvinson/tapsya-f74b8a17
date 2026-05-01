@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 import { MessageCircle, X, ArrowLeft } from "lucide-react";
 import { WHATSAPP_BASE } from "@/lib/data";

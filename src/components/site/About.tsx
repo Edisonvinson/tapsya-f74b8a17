@@ -1,3 +1,4 @@
+"use client";
 import { useReveal } from "@/hooks/use-reveal";
 import { WHATSAPP_BASE } from "@/lib/data";
 

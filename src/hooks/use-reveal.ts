@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useRef } from "react";
 
 export function useReveal<T extends HTMLElement = HTMLDivElement>() {

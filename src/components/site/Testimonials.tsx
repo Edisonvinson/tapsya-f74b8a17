@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Star, User } from "lucide-react";
 import { TESTIMONIALS, GOOGLE_REVIEWS_URL } from "@/lib/data";

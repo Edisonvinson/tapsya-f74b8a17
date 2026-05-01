@@ -1,3 +1,4 @@
+"use client";
 import { ArrowRight } from "lucide-react";
 import { SIGNATURE, slugify } from "@/lib/data";
 import { useReveal } from "@/hooks/use-reveal";

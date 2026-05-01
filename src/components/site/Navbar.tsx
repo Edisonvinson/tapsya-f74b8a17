@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useRef, useState } from "react";
 import { Menu, X, Search, Calendar, Instagram, Facebook } from "lucide-react";
 import { WHATSAPP_BASE } from "@/lib/data";

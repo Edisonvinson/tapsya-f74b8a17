@@ -1,27 +1,25 @@
+"use client";
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { WHATSAPP_BASE } from "@/lib/data";
-import hero1 from "@/assets/hero-1.webp";
-import hero2 from "@/assets/hero-2.webp";
-import hero3 from "@/assets/hero-3.webp";
 
 const slides = [
   {
-    image: hero1,
+    image: "/assets/hero-1.webp",
     eyebrow: "Tapasya",
     headline: "The Best Spa\nExperience in Kumily",
     sub: "Relax, unwind, and enjoy a rejuvenating spa experience at Tapasya. Leave feeling lighter, refreshed, and at ease.",
     cta: { label: "Learn More", href: WHATSAPP_BASE, external: true },
   },
   {
-    image: hero2,
+    image: "/assets/hero-2.webp",
     eyebrow: "Tapasya",
     headline: "Prioritize Your\nWellbeing",
     sub: "The pace of travel and daily life can take a toll on your body and mind. At Tapasya, we offer a space where you can slow down, relax, and feel refreshed.",
     cta: { label: "Learn More", href: "/services", external: false },
   },
   {
-    image: hero3,
+    image: "/assets/hero-3.webp",
     eyebrow: "Tapasya",
     headline: "Skin care that\ngoes deeper",
     sub: "From sea salt scrubs to body wraps and targeted facials, give your skin the care it needs to feel fresh and renewed during your stay in Kumily. Relax, unwind, and leave with a natural, healthy glow.",
@@ -86,8 +84,7 @@ export function Hero() {
                 height={600}
                 loading={idx === 0 ? "eager" : "lazy"}
                 decoding={idx === 0 ? "sync" : "async"}
-                // @ts-expect-error fetchpriority is a valid HTML attribute
-                fetchpriority={idx === 0 ? "high" : "low"}
+                fetchPriority={idx === 0 ? "high" : "low"}
                 className="absolute inset-0 w-full h-full object-cover"
               />
               {/* Green overlay gradient — strong on left, fades right */}

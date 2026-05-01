@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 import { ALL_SERVICES, waBook } from "@/lib/data";

@@ -1,3 +1,4 @@
+"use client";
 import { SprayCan, Leaf, BadgeCheck, ShowerHead } from "lucide-react";
 
 const items = [

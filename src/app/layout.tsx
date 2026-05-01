@@ -1,0 +1,43 @@
+import type { Metadata } from 'next';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: 'Lovable App',
+  description: 'Tapasya Spa & Wellness offers a serene escape in Kumily, Kerala, blending Western, Ayurvedic, and Asian therapies.',
+  authors: [{ name: 'Lovable' }],
+  openGraph: {
+    title: 'Lovable App',
+    description: 'Tapasya Spa & Wellness offers a serene escape in Kumily, Kerala, blending Western, Ayurvedic, and Asian therapies.',
+    type: 'website',
+    images: ['https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3383f4f6-cd4c-481e-bbd7-cf86aeb69551/id-preview-714cd9f1--989f095b-2e78-4c95-8e38-ec67495a8d42.lovable.app-1776935000161.png'],
+  },
+  twitter: {
+    card: 'summary',
+    site: '@Lovable',
+    title: 'Lovable App',
+    description: 'Tapasya Spa & Wellness offers a serene escape in Kumily, Kerala, blending Western, Ayurvedic, and Asian therapies.',
+    images: ['https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3383f4f6-cd4c-481e-bbd7-cf86aeb69551/id-preview-714cd9f1--989f095b-2e78-4c95-8e38-ec67495a8d42.lovable.app-1776935000161.png'],
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.graymatterdubai.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+        />
+      </head>
+      <body>{children}</body>
+    </html>
+  );
+}
