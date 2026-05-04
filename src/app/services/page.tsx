@@ -74,7 +74,7 @@ const CATEGORIES: Category[] = [
       },
       {
         name: "Tapasya Balinese Massage",
-        priceLine: "₹3,200 (60 Min) | ₹3,400 (90 Min) · Prices inclusive of all taxes",
+        priceLine: "₹3,200 (60 Min) · Prices inclusive of all taxes",
         description:
           "Experience a world-class fusion of traditional dry Thai stretching and the soothing flow of a medium-pressure oil massage. This unique therapy is specifically designed to provide the new energy your body needs after a long journey. By focusing on vital pressure points, our therapists help rebalance your internal energy while the oil-based strokes melt away muscle tension. It is the ideal choice for those who want the invigorating benefits of a Thai massage combined with the relaxation of an aromatic oil therapy.",
         inclusions: "Fusion Balinese Massage (Dry + Oil), Signature Aroma Oil, and access to a relaxing hot shower.",
