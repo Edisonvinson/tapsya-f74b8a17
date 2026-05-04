@@ -51,9 +51,9 @@ export function Footer() {
             className="mt-4 not-italic text-center md:text-left"
             style={{ fontSize: 14, lineHeight: 1.7, color: "rgba(255,255,255,0.92)" }}
           >
-            J575+5J7, Valiyakandam, Chelimada,
+            Opp. South Indian Bank, NH 183, Kulathupalam, Kumily,
             <br />
-            Thekkady, Kumily, Kerala 685509
+            Idukki Dist, Kerala – 685 509
             <span
               className="block mt-2"
               style={{ fontSize: 12.5, color: "rgba(255,255,255,0.78)" }}
