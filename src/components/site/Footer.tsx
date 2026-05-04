@@ -40,7 +40,7 @@ export function Footer() {
             style={{ background: "transparent" }}
           />
           <p className="mt-4 text-center md:text-left" style={{ fontSize: 15, lineHeight: 1.7, color: "#ffffff" }}>
-            Kumily's trusted spa for Western, Ayurvedic & Asian therapies.
+            Kumily's trusted spa for Western & Asian therapies.
           </p>
           <address
             className="mt-4 not-italic text-center md:text-left"
