@@ -147,11 +147,8 @@ export default function AboutPage() {
               <MapPin className="shrink-0 mt-1" size={22} strokeWidth={1.5} style={{ color: "#c6a46c" }} />
               <div>
                 <p style={{ color: "#1a1a1a", fontSize: 15, lineHeight: 1.7 }}>
-                  J575+5J7, Valiyakandam, Chelimada,
-                  <br /> Thekkady, Kumily, Kerala 685509
-                </p>
-                <p className="mt-2" style={{ color: "#6b6b66", fontSize: 13 }}>
-                  250m from Elephant Camp · 850m from Periyar Boat Ticket Counter
+                  Opp. South Indian Bank, NH 183, Kulathupalam,
+                  <br /> Kumily, Idukki Dist, Kerala 685509
                 </p>
               </div>
             </li>
