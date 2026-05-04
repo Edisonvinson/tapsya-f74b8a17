@@ -14,7 +14,11 @@ export function About() {
               className="font-serif text-[44px] md:text-[64px] lg:text-[72px] leading-[1.02] font-bold"
               style={{ color: "#0f0f0f", letterSpacing: "-0.02em" }}
             >
-              A Spa Built<br />Around Your<br />Comfort
+              A Spa Built
+              <br />
+              Around Your
+              <br />
+              Comfort
             </h2>
             <p className="mt-6 text-[15px] md:text-[16px]" style={{ color: "#6b6b66" }}>
               Explore your inner world and find true calm
@@ -24,14 +28,13 @@ export function About() {
           <div className="lg:pt-6">
             <div className="space-y-5 text-[16px] leading-[1.75]" style={{ color: "#3a3a3a" }}>
               <p>
-                Tapasya Ayurvedic Spa is a wellness destination in Kumily offering a blend of Western,
-                Ayurvedic, and Asian massage therapies. Created with a focus on relaxation and care,
-                Tapasya provides a space where travelers and guests can step away from stress and
-                experience true comfort.
+                Tapasya Wellness Spa is a wellness destination in Kumily offering a blend of Western, and Asian massage
+                therapies. Created with a focus on relaxation and care, Tapasya provides a space where travelers and
+                guests can step away from stress and experience true comfort.
               </p>
               <p>
-                We welcome individuals, couples, and tourists looking for a reliable and professional
-                spa experience during their stay in Thekkady.
+                We welcome individuals, couples, and tourists looking for a reliable and professional spa experience
+                during their stay in Thekkady.
               </p>
             </div>
             <a
@@ -45,7 +48,6 @@ export function About() {
             </a>
           </div>
         </div>
-
       </div>
     </section>
   );
