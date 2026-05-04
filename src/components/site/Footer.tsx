@@ -17,7 +17,7 @@ export function Footer() {
     "Tapasya Foot Fix": slugify("Tapasya Foot Fix (Reflexology)"),
     "Hot Stone Massage": slugify("Hot Stone Healing Therapy"),
     "Bamboo Massage": slugify("Warm Bamboo Therapy"),
-    "Facials": slugify("Advanced Radiance Facial"),
+    Facials: slugify("Advanced Radiance Facial"),
     "Aromatherapy Massage": slugify("Aromatherapy Healing Massage"),
     "Lomi Lomi Massage": slugify("Hawaiian Lomi Lomi Massage"),
   };
@@ -25,9 +25,7 @@ export function Footer() {
 
   return (
     <footer className="text-white" style={{ backgroundColor: "#00846d" }}>
-      <div
-        className="max-w-7xl mx-auto px-6 md:px-10 py-12 grid grid-cols-1 md:grid-cols-[1.8fr_1.2fr_1.2fr_1.4fr] gap-10 md:gap-10 items-start"
-      >
+      <div className="max-w-7xl mx-auto px-6 md:px-10 py-12 grid grid-cols-1 md:grid-cols-[1.8fr_1.2fr_1.2fr_1.4fr] gap-10 md:gap-10 items-start">
         {/* Column 1 — Brand */}
         <div className="flex flex-col items-center md:items-start">
           <img
@@ -41,10 +39,7 @@ export function Footer() {
             className="h-[190px] md:h-[224px] w-auto block"
             style={{ background: "transparent" }}
           />
-          <p
-            className="mt-4 text-center md:text-left"
-            style={{ fontSize: 15, lineHeight: 1.7, color: "#ffffff" }}
-          >
+          <p className="mt-4 text-center md:text-left" style={{ fontSize: 15, lineHeight: 1.7, color: "#ffffff" }}>
             Kumily's trusted spa for Western, Ayurvedic & Asian therapies.
           </p>
           <address
@@ -54,12 +49,6 @@ export function Footer() {
             Opp. South Indian Bank, NH 183, Kulathupalam, Kumily,
             <br />
             Idukki Dist, Kerala – 685 509
-            <span
-              className="block mt-2"
-              style={{ fontSize: 12.5, color: "rgba(255,255,255,0.78)" }}
-            >
-              250m from Elephant Camp · 850m from Periyar Boat Ticket Counter
-            </span>
           </address>
         </div>
 
