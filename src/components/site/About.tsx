@@ -28,7 +28,7 @@ export function About() {
           <div className="lg:pt-6">
             <div className="space-y-5 text-[16px] leading-[1.75]" style={{ color: "#3a3a3a" }}>
               <p>
-                Tapasya Wellness Spa is a wellness destination in Kumily offering a blend of Western, and Asian massage
+                Tapasya Wellness Spa is a wellness destination in Kumily offering a blend of Western and Asian massage
                 therapies. Created with a focus on relaxation and care, Tapasya provides a space where travelers and
                 guests can step away from stress and experience true comfort.
               </p>
