@@ -6,11 +6,12 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 export const metadata = {
   title: "About Us — Tapasya Spa & Wellness, Kumily",
-  description: "Learn about Tapasya Spa & Wellness in Kumily, Thekkady — a wellness destination offering Western, Ayurvedic and Asian massage therapies in a calm, professional setting.",
+  description:
+    "Learn about Tapasya Spa & Wellness in Kumily, Thekkady — a wellness destination offering Western, Ayurvedic and Asian massage therapies in a calm, professional setting.",
   openGraph: {
     title: "About Us — Tapasya Spa & Wellness",
-    description: "A wellness destination in Kumily offering Western, Ayurvedic and Asian therapies for travelers and guests.",
-  }
+    description: "A wellness destination in Kumily offering Western and Asian therapies for travelers and guests.",
+  },
 };
 
 export default function AboutPage() {
@@ -29,10 +30,7 @@ export default function AboutPage() {
         className="pt-20 pb-16 md:pt-24 md:pb-20 text-white"
       >
         <div className="max-w-5xl mx-auto px-6 md:px-10 text-center">
-          <span
-            className="eyebrow"
-            style={{ color: "#b89b64", letterSpacing: "0.2em", fontSize: 13 }}
-          >
+          <span className="eyebrow" style={{ color: "#b89b64", letterSpacing: "0.2em", fontSize: 13 }}>
             About Tapasya
           </span>
           <h1
@@ -41,10 +39,7 @@ export default function AboutPage() {
           >
             A Spa Built Around Your Comfort
           </h1>
-          <p
-            className="mt-5 mx-auto"
-            style={{ color: "#d4c9b0", fontSize: 17, lineHeight: 1.8, maxWidth: 720 }}
-          >
+          <p className="mt-5 mx-auto" style={{ color: "#d4c9b0", fontSize: 17, lineHeight: 1.8, maxWidth: 720 }}>
             Explore your inner world and find true calm at Kumily's trusted wellness destination.
           </p>
         </div>
@@ -66,17 +61,15 @@ export default function AboutPage() {
           </div>
           <div className="space-y-5 text-[16px] leading-[1.8]" style={{ color: "#3a3a3a" }}>
             <p>
-              Tapasya Ayurvedic Spa is a wellness destination in Kumily offering a blend of Western,
-              Ayurvedic, and Asian massage therapies. Created with a focus on relaxation and care,
-              Tapasya provides a space where travelers and guests can step away from stress and
-              experience true comfort.
+              Tapasya Ayurvedic Spa is a wellness destination in Kumily offering a blend of Western and Asian massage
+              therapies. Created with a focus on relaxation and care, Tapasya provides a space where travelers and
+              guests can step away from stress and experience true comfort.
             </p>
             <p>
-              We welcome individuals, couples, and tourists looking for a reliable and professional
-              spa experience during their stay in Thekkady. Every treatment is guided by experienced
-              therapists who tailor each session to your needs — whether you're seeking deep muscle
-              recovery after a trek, gentle restoration after a long journey, or simply a moment of
-              quiet for yourself.
+              We welcome individuals, couples, and tourists looking for a reliable and professional spa experience
+              during their stay in Thekkady. Every treatment is guided by experienced therapists who tailor each session
+              to your needs — whether you're seeking deep muscle recovery after a trek, gentle restoration after a long
+              journey, or simply a moment of quiet for yourself.
             </p>
           </div>
         </div>
@@ -121,10 +114,7 @@ export default function AboutPage() {
                   borderRadius: 4,
                 }}
               >
-                <h3
-                  className="font-serif font-semibold"
-                  style={{ color: "#00846d", fontSize: 20, lineHeight: 1.3 }}
-                >
+                <h3 className="font-serif font-semibold" style={{ color: "#00846d", fontSize: 20, lineHeight: 1.3 }}>
                   {v.title}
                 </h3>
                 <p className="mt-3" style={{ color: "#4a4a3a", fontSize: 15, lineHeight: 1.75 }}>
@@ -168,7 +158,15 @@ export default function AboutPage() {
             <li className="flex gap-4 items-start p-6" style={{ backgroundColor: "#faf7f2", borderRadius: 6 }}>
               <Phone className="shrink-0 mt-1" size={22} strokeWidth={1.5} style={{ color: "#c6a46c" }} />
               <div>
-                <p style={{ color: "#6b6b66", fontSize: 13, letterSpacing: "0.06em", textTransform: "uppercase", fontWeight: 600 }}>
+                <p
+                  style={{
+                    color: "#6b6b66",
+                    fontSize: 13,
+                    letterSpacing: "0.06em",
+                    textTransform: "uppercase",
+                    fontWeight: 600,
+                  }}
+                >
                   Call
                 </p>
                 <a href="tel:+917511193223" className="block mt-1" style={{ color: "#1a1a1a", fontSize: 16 }}>
@@ -179,7 +177,15 @@ export default function AboutPage() {
             <li className="flex gap-4 items-start p-6" style={{ backgroundColor: "#faf7f2", borderRadius: 6 }}>
               <Mail className="shrink-0 mt-1" size={22} strokeWidth={1.5} style={{ color: "#c6a46c" }} />
               <div>
-                <p style={{ color: "#6b6b66", fontSize: 13, letterSpacing: "0.06em", textTransform: "uppercase", fontWeight: 600 }}>
+                <p
+                  style={{
+                    color: "#6b6b66",
+                    fontSize: 13,
+                    letterSpacing: "0.06em",
+                    textTransform: "uppercase",
+                    fontWeight: 600,
+                  }}
+                >
                   Email
                 </p>
                 <a
