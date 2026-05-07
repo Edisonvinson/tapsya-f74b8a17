@@ -28,9 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" type="image/png" sizes="256x256" href="/favicon-256.png" />
-        <link rel="apple-touch-icon" href="/favicon-256.png" />
+        <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=2" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png?v=2" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png?v=2" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png?v=2" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png?v=2" />
+        <link rel="manifest" href="/site.webmanifest?v=2" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.graymatterdubai.com" crossOrigin="anonymous" />
