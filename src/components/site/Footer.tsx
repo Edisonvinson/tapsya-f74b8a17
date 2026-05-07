@@ -144,10 +144,11 @@ export function Footer() {
 
       <div className="border-t" style={{ borderColor: "rgba(255,255,255,0.2)" }}>
         <div
-          className="max-w-7xl mx-auto px-6 md:px-10 py-5 flex flex-col md:flex-row gap-3 justify-between"
+          className="max-w-7xl mx-auto px-6 md:px-10 py-5 flex flex-col gap-3 md:grid md:grid-cols-3 md:items-center"
           style={{ fontSize: 13, color: "rgba(255,255,255,0.8)" }}
         >
-          <p style={{ color: "rgba(255,255,255,0.8)", fontSize: 13 }}>
+          <div className="hidden md:block" />
+          <p className="text-center" style={{ color: "rgba(255,255,255,0.8)", fontSize: 13 }}>
             © 2025 Tapasya Spa & Wellness. All rights reserved. · Designed by{" "}
             <a
               href="https://ilamacreatives.com/"
@@ -159,7 +160,7 @@ export function Footer() {
               Ilama Creatives
             </a>
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-5 justify-center md:justify-end">
             <a href="#" className="hover:text-white transition" style={{ color: "rgba(255,255,255,0.8)" }}>
               Privacy Policy
             </a>
