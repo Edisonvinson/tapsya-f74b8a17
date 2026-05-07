@@ -148,7 +148,16 @@ export function Footer() {
           style={{ fontSize: 13, color: "rgba(255,255,255,0.8)" }}
         >
           <p style={{ color: "rgba(255,255,255,0.8)", fontSize: 13 }}>
-            © 2025 Tapasya Spa & Wellness. All rights reserved.
+            © 2025 Tapasya Spa & Wellness. All rights reserved. · Designed by{" "}
+            <a
+              href="https://ilamacreatives.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-white transition"
+              style={{ color: "#ffe9b8" }}
+            >
+              Ilama Creatives
+            </a>
           </p>
           <div className="flex gap-5">
             <a href="#" className="hover:text-white transition" style={{ color: "rgba(255,255,255,0.8)" }}>
