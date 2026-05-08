@@ -36,6 +36,16 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png?v=2" />
         <link rel="manifest" href="/site.webmanifest?v=2" />
         <meta name="google-site-verification" content="s8uMjojSU-kNaBbsLCuTbORw5_QElTprOS_UIpyF_jM" />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17808948601"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-17808948601');`,
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.graymatterdubai.com" crossOrigin="anonymous" />
