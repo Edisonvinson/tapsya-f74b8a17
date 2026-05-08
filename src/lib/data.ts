@@ -57,81 +57,57 @@ export const ALL_SERVICES: Service[] = [
   {
     name: "Sports Massage / Deep Tissue",
     desc: "Deep strokes for stiff muscles, joint pressure & stretches. Includes foot reflexology, shower & detox tea.",
-    durations: [
-      { min: 60, price: 2750 },
-      { min: 90, price: 3200 },
-    ],
+    durations: [{ min: 60, price: 3800 }],
   },
   {
     name: "Thai Traditional Massage",
     desc: "Dry stretch-based massage using passive yoga positions and acupressure. Includes foot ritual, foot care, shower & detox tea.",
-    durations: [
-      { min: 60, price: 3000 },
-      { min: 90, price: 3500 },
-    ],
+    durations: [{ min: 60, price: 3800 }],
   },
   {
     name: "Tapasya Body Scrub & Wrap",
     desc: "Sea salt or sugar scrub with aromatic essential oils. Exfoliates and hydrates for soft, smooth skin.",
-    durations: [{ min: 60, price: 3000 }],
+    durations: [{ min: 60, price: 4200 }],
   },
   {
     name: "Swedish Massage",
     desc: "The foundational Western spa massage. Gentle, soothing, ideal for beginners.",
-    durations: [
-      { min: 60, price: 2600 },
-      { min: 90, price: 3100 },
-    ],
+    durations: [{ min: 60, price: 3100 }],
   },
   {
     name: "Tapasya Balinese",
     desc: "Medium-pressure oil and dry massage focusing on pressure points to balance energy.",
-    durations: [
-      { min: 60, price: 2900 },
-      { min: 90, price: 3400 },
-    ],
+    durations: [{ min: 60, price: 3200 }],
   },
   {
     name: "Tapasya Foot Fix",
     desc: "Foot reflexology targeting pressure points for digestive issues, circulation, and tired or swollen feet.",
-    durations: [{ min: 30, price: 1500 }],
+    durations: [{ min: 60, price: 1800 }],
   },
   {
     name: "Hot Stone Massage",
     desc: "Heated stones placed on spine, chest, stomach, face, palms, and feet. Best suited for Kumily's cool climate.",
-    durations: [
-      { min: 60, price: 3500 },
-      { min: 90, price: 4000 },
-    ],
+    durations: [{ min: 60, price: 6000 }],
   },
   {
     name: "Bamboo Massage",
     desc: "Warm bamboo sticks of varying sizes with lotion and essential oil. A deep tissue and Swedish hybrid.",
-    durations: [
-      { min: 60, price: 5200 },
-      { min: 90, price: 6000 },
-    ],
+    durations: [{ min: 60, price: 6000 }],
   },
   {
     name: "Facials",
     desc: "D-TAN treatment for uneven skin tone, pigmentation and scars using O3+ Blueberry & Cranberry range.",
-    durations: [{ min: 45, price: 2500 }],
+    durations: [{ min: 60, price: 3800 }],
   },
   {
     name: "Aromatherapy Massage",
     desc: "Gentle strokes with lavender, peppermint, and chamomile oils. Promotes relaxation, mood, pain relief, and circulation.",
-    durations: [
-      { min: 60, price: 2700 },
-      { min: 90, price: 3100 },
-    ],
+    durations: [{ min: 60, price: 3200 }],
   },
   {
     name: "Lomi Lomi Massage",
     desc: "Traditional Hawaiian bodywork with long, flowing ocean-wave strokes using coconut or macadamia oil.",
-    durations: [
-      { min: 60, price: 2900 },
-      { min: 90, price: 3400 },
-    ],
+    durations: [{ min: 60, price: 3100 }],
   },
 ];
 
