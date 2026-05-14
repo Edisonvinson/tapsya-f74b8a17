@@ -36,6 +36,17 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png?v=2" />
         <link rel="manifest" href="/site.webmanifest?v=2" />
         <meta name="google-site-verification" content="s8uMjojSU-kNaBbsLCuTbORw5_QElTprOS_UIpyF_jM" />
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5N3KZCK7');`,
+          }}
+        />
+        {/* End Google Tag Manager */}
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17808948601"></script>
         <script
@@ -55,7 +66,19 @@ gtag('config', 'AW-17808948601');`,
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5N3KZCK7"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
+        {children}
+      </body>
     </html>
   );
 }
