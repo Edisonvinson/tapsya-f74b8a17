@@ -13,7 +13,7 @@ export function Hero() {
           {/* Background image */}
           <img
             src="/assets/hero-1.webp"
-            alt="Hornbill Spa — formerly Hornbill Spa & Wellness, Kumily"
+            alt="Hornbill Spa — formerly Tapasya Spa, Kumily"
             width={1400}
             height={600}
             loading="eager"
@@ -47,7 +47,7 @@ export function Hero() {
                 </span>
 
                 <h1 className="font-serif text-white text-[34px] md:text-[50px] leading-[1.05] font-bold mt-4">
-                  Hornbill is now
+                  Tapasya is now
                   <br />
                   Hornbill Spa
                 </h1>
@@ -116,9 +116,9 @@ export function Hero() {
                 </p>
                 <div className="mt-3 space-y-3 text-white/85 text-[13px] md:text-[13.5px] leading-[1.6]">
                   <p>
-                    Please note that <em>Hornbill Spa (formerly Hornbill Spa)</em> has{" "}
+                    Please note that <em>Hornbill Spa (formerly Tapasya Spa)</em> has{" "}
                     <strong>no affiliation, association, or business relationship</strong> with any
-                    other spa or wellness business currently operating under the name &quot;Hornbill
+                    other spa or wellness business currently operating under the name &quot;Tapasya
                     Spa.&quot;
                   </p>
                   <p>
