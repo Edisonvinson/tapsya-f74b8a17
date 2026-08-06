@@ -1,8 +1,11 @@
 export const WHATSAPP_NUMBER = "917511193223";
-export const WHATSAPP_BASE = `https://wa.me/${WHATSAPP_NUMBER}`;
+export const SITE_URL = "https://www.hornbillspa.com/";
+export const CONTACT_EMAIL = "info@hornbillspa.com";
+export const WHATSAPP_BASE = `https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}&text&type=phone_number&app_absent=0`;
 
 export function waBook(treatment: string) {
-  return `${WHATSAPP_BASE}?text=${encodeURIComponent(`Hi, I'd like to book ${treatment} at Hornbill Spa`)}`;
+  const text = encodeURIComponent(`Hi, I'd like to book ${treatment} at Hornbill Spa`);
+  return `https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}&text=${text}&type=phone_number&app_absent=0`;
 }
 
 export function slugify(s: string) {
