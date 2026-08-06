@@ -48,50 +48,26 @@ export function Hero() {
               </span>
 
               <h1 className="font-serif text-white text-[38px] md:text-[60px] lg:text-[68px] leading-[1.05] font-bold mt-5">
-                Welcome to the
+                Tapasya is now
                 <br />
-                New Hornbill Spa
+                Hornbill Spa
               </h1>
 
               <div className="text-white/90 text-[15px] md:text-[16px] mt-6 max-w-lg leading-[1.7] space-y-4">
-                <p className="font-semibold text-white">
-                  <em>Formerly Tapasya Spa, we are now Hornbill Spa.</em>
+                <p className="font-semibold text-white">Important Brand Notice</p>
+
+                <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
+                  Please note that <em>Hornbill Spa (formerly Tapasya Spa)</em> has{" "}
+                  <strong>no affiliation, association, or business relationship</strong> with any other spa or wellness business currently operating under the name &quot;Tapasya Spa.&quot;
                 </p>
 
-                <p>
-                  We are delighted to welcome you to a new chapter of our journey. Our brand has evolved into{" "}
-                  <em>Hornbill Spa</em>, and we have relocated to a beautiful new luxury space, thoughtfully designed to provide an even more refined, relaxing, and rejuvenating wellness experience.
+                <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
+                  Any treatments, services, customer experiences, bookings, offers, or representations made by such businesses are entirely their own. <em>Hornbill Spa accepts no responsibility or liability</em> for the services, products, or customer experiences provided by any other business using the name &quot;Tapasya Spa.&quot;
                 </p>
 
-                <p>
-                  We invite you to explore our new home and discover our enhanced range of spa and wellness services.
+                <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
+                  We look forward to welcoming you to <em>Hornbill Spa</em>, where the trusted team you know now offers an elevated luxury wellness experience in our new location.
                 </p>
-
-                <p>
-                  <span className="block font-semibold text-white">Visit our new website:</span>
-                  <a
-                    href={SITE_LINK}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-semibold underline underline-offset-4"
-                  >
-                    https://www.hornbillspa.com
-                  </a>
-                </p>
-
-                <div className="pt-2">
-                  <p className="font-semibold text-white mb-1">Important Brand Notice</p>
-                  <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
-                    Please note that <em>Hornbill Spa (formerly Tapasya Spa)</em> has{" "}
-                    <strong>no affiliation, association, or business relationship</strong> with any other spa or wellness business currently operating under the name &quot;Tapasya Spa.&quot;
-                  </p>
-                  <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65] mt-2">
-                    Any treatments, services, customer experiences, bookings, offers, or representations made by such businesses are entirely their own. <em>Hornbill Spa accepts no responsibility or liability</em> for the services, products, or customer experiences provided by any other business using the name &quot;Tapasya Spa.&quot;
-                  </p>
-                  <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65] mt-2">
-                    We look forward to welcoming you to <em>Hornbill Spa</em>, where the trusted team you know now offers an elevated luxury wellness experience in our new location.
-                  </p>
-                </div>
               </div>
 
               <p className="text-white/90 text-[15px] md:text-[16px] mt-4 font-semibold">
