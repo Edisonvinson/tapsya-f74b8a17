@@ -16,7 +16,7 @@ export function Hero() {
           {/* Background image */}
           <img
             src="/assets/hero-1.webp"
-            alt="Hornbill Spa — formerly Tapasya Spa & Wellness, Kumily"
+            alt="Hornbill Spa — formerly Hornbill Spa & Wellness, Kumily"
             width={1400}
             height={600}
             loading="eager"
@@ -48,7 +48,7 @@ export function Hero() {
               </span>
 
               <h1 className="font-serif text-white text-[38px] md:text-[60px] lg:text-[68px] leading-[1.05] font-bold mt-5">
-                Tapasya is now
+                Hornbill is now
                 <br />
                 Hornbill Spa
               </h1>
@@ -59,7 +59,7 @@ export function Hero() {
                 </p>
 
                 <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
-                  <em>Formerly Tapasya Spa, we are now Hornbill Spa.</em>
+                  <em>Formerly Hornbill Spa, we are now Hornbill Spa.</em>
                 </p>
 
                 <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
@@ -79,12 +79,12 @@ export function Hero() {
                 <p className="font-semibold text-white">Important Brand Notice</p>
 
                 <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
-                  Please note that <em>Hornbill Spa (formerly Tapasya Spa)</em> has{" "}
-                  <strong>no affiliation, association, or business relationship</strong>{" "}with any other spa or wellness business currently operating under the name &quot;Tapasya Spa.&quot;
+                  Please note that <em>Hornbill Spa (formerly Hornbill Spa)</em> has{" "}
+                  <strong>no affiliation, association, or business relationship</strong>{" "}with any other spa or wellness business currently operating under the name &quot;Hornbill Spa.&quot;
                 </p>
 
                 <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">
-                  Any treatments, services, customer experiences, bookings, offers, or representations made by such businesses are entirely their own. <em>Hornbill Spa accepts no responsibility or liability</em>{" "}for the services, products, or customer experiences provided by any other business using the name &quot;Tapasya Spa.&quot;
+                  Any treatments, services, customer experiences, bookings, offers, or representations made by such businesses are entirely their own. <em>Hornbill Spa accepts no responsibility or liability</em>{" "}for the services, products, or customer experiences provided by any other business using the name &quot;Hornbill Spa.&quot;
                 </p>
 
                 <p className="text-white/85 text-[14px] md:text-[15px] leading-[1.65]">

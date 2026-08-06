@@ -50,9 +50,9 @@ export function Navbar() {
             <span aria-hidden>📞</span>
             <span>075111 93223</span>
           </a>
-          <a href="mailto:tapasyawellnessspa@gmail.com" className="inline-flex items-center gap-1.5 hover:opacity-90">
+          <a href="mailto:info@hornbillspa.com" className="inline-flex items-center gap-1.5 hover:opacity-90">
             <span aria-hidden>✉️</span>
-            <span className="hidden sm:inline">tapasyawellnessspa@gmail.com</span>
+            <span className="hidden sm:inline">info@hornbillspa.com</span>
             <span className="sm:hidden">Email</span>
           </a>
           <span className="hidden sm:inline opacity-50">|</span>
@@ -90,7 +90,7 @@ export function Navbar() {
         <a href="/#home" className="flex items-center shrink-0">
           <img
             src="/logo.webp"
-            alt="Tapasya Spa & Wellness"
+            alt="Hornbill Spa & Wellness"
             width={280}
             height={120}
             decoding="async"

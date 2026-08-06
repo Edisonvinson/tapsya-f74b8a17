@@ -22,14 +22,14 @@ export function Contact() {
               </a>
             </li>
             <li>
-              <a href="mailto:tapasyawellnessspa@gmail.com" className="flex gap-4 items-center text-[16px] transition" style={{ color: "#1a1a1a" }}>
+              <a href="mailto:info@hornbillspa.com" className="flex gap-4 items-center text-[16px] transition" style={{ color: "#1a1a1a" }}>
                 <Mail className="shrink-0" size={20} strokeWidth={1.5} style={{ color: "#c6a46c" }} />
-                tapasyawellnessspa@gmail.com
+                info@hornbillspa.com
               </a>
             </li>
             <li className="flex gap-4 items-center text-[16px]" style={{ color: "#1a1a1a" }}>
               <Globe className="shrink-0" size={20} strokeWidth={1.5} style={{ color: "#c6a46c" }} />
-              www.tapasyaspa.com
+              www.hornbillspa.com
             </li>
           </ul>
 
@@ -55,7 +55,7 @@ export function Contact() {
 
         <div className="aspect-square w-full overflow-hidden" style={{ borderRadius: 16, boxShadow: "0 4px 24px -8px rgba(15,61,46,0.12)" }}>
           <iframe
-            title="Tapasya Spa Location"
+            title="Hornbill Spa Location"
             src="https://www.google.com/maps?q=9.6027,77.1673&z=15&output=embed"
             className="w-full h-full"
             loading="lazy"

@@ -8,13 +8,13 @@ export function Footer() {
 
   // Map footer service names → exact treatment slugs on /services page
   const NAME_TO_SLUG: Record<string, string> = {
-    "Tapasya Signature Massage": slugify("Tapasya Signature Massage"),
+    "Hornbill Signature Massage": slugify("Hornbill Signature Massage"),
     "Sports Massage / Deep Tissue": slugify("Sports Massage / Deep Tissue"),
     "Thai Traditional Massage": slugify("Traditional Thai Massage"),
-    "Tapasya Body Scrub & Wrap": slugify("Tapasya Body Scrub & Wrap"),
+    "Hornbill Body Scrub & Wrap": slugify("Hornbill Body Scrub & Wrap"),
     "Swedish Massage": slugify("Swedish Massage"),
-    "Tapasya Balinese": slugify("Tapasya Balinese Massage"),
-    "Tapasya Foot Fix": slugify("Tapasya Foot Fix (Reflexology)"),
+    "Hornbill Balinese": slugify("Hornbill Balinese Massage"),
+    "Hornbill Foot Fix": slugify("Hornbill Foot Fix (Reflexology)"),
     "Hot Stone Massage": slugify("Hot Stone Healing Therapy"),
     "Bamboo Massage": slugify("Warm Bamboo Therapy"),
     Facials: slugify("Advanced Radiance Facial"),
@@ -30,7 +30,7 @@ export function Footer() {
         <div className="flex flex-col items-center md:items-start">
           <img
             src="/logo-white.webp"
-            alt="Tapasya Spa & Wellness"
+            alt="Hornbill Spa & Wellness"
             width={420}
             height={240}
             loading="eager"
@@ -118,7 +118,7 @@ export function Footer() {
               { Icon: Instagram, href: "#" },
               { Icon: Facebook, href: "#" },
               { Icon: MessageCircle, href: WHATSAPP_BASE },
-              { Icon: Mail, href: "mailto:tapasyawellnessspa@gmail.com" },
+              { Icon: Mail, href: "mailto:info@hornbillspa.com" },
             ].map(({ Icon, href }, i) => (
               <a
                 key={i}
@@ -133,11 +133,11 @@ export function Footer() {
             ))}
           </div>
           <a
-            href="mailto:tapasyawellnessspa@gmail.com"
+            href="mailto:info@hornbillspa.com"
             className="transition hover:text-white"
             style={{ fontSize: 15, color: "rgba(255,255,255,0.92)" }}
           >
-            tapasyawellnessspa@gmail.com
+            info@hornbillspa.com
           </a>
         </div>
       </div>
@@ -148,7 +148,7 @@ export function Footer() {
           style={{ fontSize: 13, color: "rgba(255,255,255,0.8)" }}
         >
           <p className="text-center md:text-left" style={{ color: "rgba(255,255,255,0.8)", fontSize: 13 }}>
-            © 2025 Tapasya Spa & Wellness. All rights reserved.
+            © 2025 Hornbill Spa & Wellness. All rights reserved.
           </p>
           <div className="flex gap-5 justify-center md:justify-end">
             <a href="#" className="hover:text-white transition" style={{ color: "rgba(255,255,255,0.8)" }}>
