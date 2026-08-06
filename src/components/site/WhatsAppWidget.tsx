@@ -43,7 +43,7 @@ const QUICK: QR[] = [
       "We're at Valiyakandam, Chelimada, Thekkady, Kumily — just 250m from the Elephant Camp and 850m from the Periyar boat counter. 📍",
     cta: {
       label: "Chat with Us →",
-      href: `${WHATSAPP_BASE}?text=${encodeURIComponent("Hi, I need directions to Tapasya Spa")}`,
+      href: `${WHATSAPP_BASE}?text=${encodeURIComponent("Hi, I need directions to Hornbill Spa")}`,
     },
   },
   {
@@ -51,7 +51,7 @@ const QUICK: QR[] = [
     reply: "Great! Tap below and we'll confirm your slot right away 🙌",
     cta: {
       label: "Book on WhatsApp →",
-      href: `${WHATSAPP_BASE}?text=${encodeURIComponent("Hi, I'd like to book an appointment at Tapasya Spa")}`,
+      href: `${WHATSAPP_BASE}?text=${encodeURIComponent("Hi, I'd like to book an appointment at Hornbill Spa")}`,
     },
   },
 ];
@@ -81,7 +81,7 @@ export function WhatsAppWidget() {
           <div className="p-4 flex items-center gap-3" style={{ backgroundColor: "#00846d", color: "#ffffff" }}>
             <img src="/logo.png" alt="" loading="lazy" decoding="async" className="h-[28px] w-auto" />
             <div className="flex-1">
-              <p className="font-serif text-[16px] leading-tight text-white">Tapasya Spa & Wellness</p>
+              <p className="font-serif text-[16px] leading-tight text-white">Hornbill Spa & Wellness</p>
               <p className="text-[11px] text-white/75 flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-400" />
                 Typically replies instantly
@@ -97,7 +97,7 @@ export function WhatsAppWidget() {
               className="bg-white rounded-2xl rounded-tl-sm p-3.5 text-[14px] max-w-[85%] shadow-sm"
               style={{ color: "#1a1a1a", borderLeft: "3px solid #ab8c4a" }}
             >
-              👋 Hi! Welcome to Tapasya Spa. How can we help you today?
+              👋 Hi! Welcome to Hornbill Spa. How can we help you today?
             </div>
 
             {active === null ? (
