@@ -166,8 +166,8 @@ export default function AboutPage() {
                 >
                   Call
                 </p>
-                <a href="tel:+917511193223" className="block mt-1" style={{ color: "#1a1a1a", fontSize: 16 }}>
-                  +91 75111 93223
+                <a href="tel:+917306816460" className="block mt-1" style={{ color: "#1a1a1a", fontSize: 16 }}>
+                  +91 73068 16460
                 </a>
               </div>
             </li>
@@ -198,7 +198,7 @@ export default function AboutPage() {
 
           <div className="flex flex-wrap justify-center gap-4 mt-10">
             <a
-              href="tel:+917511193223"
+              href="tel:+917306816460"
               className="inline-flex items-center px-7 py-3.5 text-white text-[13px] font-semibold uppercase tracking-[0.05em] hover:opacity-90 transition"
               style={{ backgroundColor: "#00846d", borderRadius: 999 }}
             >
