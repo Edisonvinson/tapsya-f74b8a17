@@ -46,9 +46,9 @@ export function Navbar() {
       {/* Top contact strip */}
       <div style={{ backgroundColor: BRAND_GREEN }} className="text-white text-[12px] md:text-[13px]">
         <div className="max-w-7xl mx-auto px-5 md:px-8 h-9 flex items-center justify-end gap-5">
-          <a href="tel:07306816460" className="inline-flex items-center gap-1.5 hover:opacity-90">
+          <a href="tel:+917511193223" className="inline-flex items-center gap-1.5 hover:opacity-90">
             <span aria-hidden>📞</span>
-            <span>073068 16460</span>
+            <span>+91 75111 93223</span>
           </a>
           <a href="mailto:info@hornbillspa.com" className="inline-flex items-center gap-1.5 hover:opacity-90">
             <span aria-hidden>✉️</span>

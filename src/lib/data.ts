@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "917306816460";
+export const WHATSAPP_NUMBER = "917511193223";
 export const SITE_URL = "https://www.hornbillspa.com/";
 export const CONTACT_EMAIL = "info@hornbillspa.com";
 export const WHATSAPP_BASE = `https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}&text&type=phone_number&app_absent=0`;

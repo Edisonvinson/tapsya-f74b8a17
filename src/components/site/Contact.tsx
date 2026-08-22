@@ -16,9 +16,9 @@ export function Contact() {
 
           <ul className="mt-8 space-y-5">
             <li>
-              <a href="tel:+917306816460" className="flex gap-4 items-center text-[16px] transition" style={{ color: "#1a1a1a" }}>
+              <a href="tel:+917511193223" className="flex gap-4 items-center text-[16px] transition" style={{ color: "#1a1a1a" }}>
                 <Phone className="shrink-0" size={20} strokeWidth={1.5} style={{ color: "#c6a46c" }} />
-                +91 73068 16460
+                +91 75111 93223
               </a>
             </li>
             <li>
@@ -35,7 +35,7 @@ export function Contact() {
 
           <div className="flex flex-wrap gap-4 mt-8">
             <a
-              href="tel:+917306816460"
+              href="tel:+917511193223"
               className="inline-flex items-center px-7 py-3.5 text-white text-[13px] font-semibold uppercase tracking-[0.05em] hover:opacity-90 transition"
               style={{ backgroundColor: "#00846d", borderRadius: 999 }}
             >

@@ -1,7 +1,7 @@
 "use client";
 
 const WHATSAPP_LINK =
-  "https://api.whatsapp.com/send/?phone=917306816460&text&type=phone_number&app_absent=0";
+  "https://api.whatsapp.com/send/?phone=917511193223&text&type=phone_number&app_absent=0";
 const CONTACT_LINK = "https://www.hornbillspa.com/contact-us/";
 const SITE_LINK = "https://www.hornbillspa.com/";
 
@@ -92,8 +92,8 @@ export function Hero() {
 
                 <p className="text-white/90 text-[14px] md:text-[15px] mt-4 font-semibold">
                   Call or WhatsApp:{" "}
-                  <a href="tel:+917306816460" className="underline underline-offset-4">
-                    073068 16460
+                  <a href="tel:+917511193223" className="underline underline-offset-4">
+                    075111 93223
                   </a>
                 </p>
               </div>
