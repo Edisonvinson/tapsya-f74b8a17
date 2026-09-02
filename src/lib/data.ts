@@ -4,7 +4,7 @@ export const CONTACT_EMAIL = "info@hornbillspa.com";
 export const WHATSAPP_BASE = `https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}&text&type=phone_number&app_absent=0`;
 
 export function waBook(treatment: string) {
-  const text = encodeURIComponent(`Hi, I'd like to book ${treatment} at Hornbill Spa`);
+  const text = encodeURIComponent(`Hi, I'd like to book ${treatment} at Tapasya Spa`);
   return `https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}&text=${text}&type=phone_number&app_absent=0`;
 }
 
@@ -24,7 +24,7 @@ export type Service = {
 
 export const SIGNATURE: Service[] = [
   {
-    name: "Hornbill Signature Massage",
+    name: "Tapasya Signature Massage",
     desc: "A complete full-body therapy using aromatic oils and expert techniques to restore energy flow and improve circulation.",
     durations: [{ min: 60, price: 3750 }],
   },
@@ -37,7 +37,7 @@ export const SIGNATURE: Service[] = [
     ],
   },
   {
-    name: "Hornbill Balinese Massage",
+    name: "Tapasya Balinese Massage",
     desc: "A unique blend of oil and dry massage focusing on pressure points to balance energy and rejuvenate the body.",
     durations: [
       { min: 60, price: 2900 },
@@ -53,7 +53,7 @@ export const SIGNATURE: Service[] = [
 
 export const ALL_SERVICES: Service[] = [
   {
-    name: "Hornbill Signature Massage",
+    name: "Tapasya Signature Massage",
     desc: "Aroma oil full-body massage with foot reflexology, head, face & shoulder massage. Includes foot scrub, shower & detox tea.",
     durations: [{ min: 60, price: 3750 }],
   },
@@ -68,7 +68,7 @@ export const ALL_SERVICES: Service[] = [
     durations: [{ min: 60, price: 3800 }],
   },
   {
-    name: "Hornbill Body Scrub & Wrap",
+    name: "Tapasya Body Scrub & Wrap",
     desc: "Sea salt or sugar scrub with aromatic essential oils. Exfoliates and hydrates for soft, smooth skin.",
     durations: [{ min: 60, price: 4200 }],
   },
@@ -78,12 +78,12 @@ export const ALL_SERVICES: Service[] = [
     durations: [{ min: 60, price: 3100 }],
   },
   {
-    name: "Hornbill Balinese",
+    name: "Tapasya Balinese",
     desc: "Medium-pressure oil and dry massage focusing on pressure points to balance energy.",
     durations: [{ min: 60, price: 3200 }],
   },
   {
-    name: "Hornbill Foot Fix",
+    name: "Tapasya Foot Fix",
     desc: "Foot reflexology targeting pressure points for digestive issues, circulation, and tired or swollen feet.",
     durations: [{ min: 60, price: 1800 }],
   },

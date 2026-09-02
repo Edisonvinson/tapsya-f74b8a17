@@ -90,7 +90,7 @@ export function Navbar() {
         <a href="/#home" className="flex items-center shrink-0">
           <img
             src="/logo.webp"
-            alt="Hornbill Spa & Wellness"
+            alt="Tapasya Spa & Wellness"
             width={280}
             height={120}
             decoding="async"

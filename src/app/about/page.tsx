@@ -5,11 +5,11 @@ import { WHATSAPP_BASE } from "@/lib/data";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 export const metadata = {
-  title: "About Us — Hornbill Spa & Wellness, Kumily",
+  title: "About Us — Tapasya Spa & Wellness, Kumily",
   description:
-    "Learn about Hornbill Spa & Wellness in Kumily, Thekkady — a wellness destination offering Western, Ayurvedic and Asian massage therapies in a calm, professional setting.",
+    "Learn about Tapasya Spa & Wellness in Kumily, Thekkady — a wellness destination offering Western, Ayurvedic and Asian massage therapies in a calm, professional setting.",
   openGraph: {
-    title: "About Us — Hornbill Spa & Wellness",
+    title: "About Us — Tapasya Spa & Wellness",
     description: "A wellness destination in Kumily offering Western and Asian therapies for travelers and guests.",
   },
 };
@@ -31,7 +31,7 @@ export default function AboutPage() {
       >
         <div className="max-w-5xl mx-auto px-6 md:px-10 text-center">
           <span className="eyebrow" style={{ color: "#b89b64", letterSpacing: "0.2em", fontSize: 13 }}>
-            About Hornbill
+            About Tapasya
           </span>
           <h1
             className="font-serif font-bold mt-3"
@@ -61,8 +61,8 @@ export default function AboutPage() {
           </div>
           <div className="space-y-5 text-[16px] leading-[1.8]" style={{ color: "#3a3a3a" }}>
             <p>
-              Hornbill Ayurvedic Spa is a wellness destination in Kumily offering a blend of Western and Asian massage
-              therapies. Created with a focus on relaxation and care, Hornbill provides a space where travelers and
+              Tapasya Ayurvedic Spa is a wellness destination in Kumily offering a blend of Western and Asian massage
+              therapies. Created with a focus on relaxation and care, Tapasya provides a space where travelers and
               guests can step away from stress and experience true comfort.
             </p>
             <p>

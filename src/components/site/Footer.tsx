@@ -8,13 +8,13 @@ export function Footer() {
 
   // Map footer service names → exact treatment slugs on /services page
   const NAME_TO_SLUG: Record<string, string> = {
-    "Hornbill Signature Massage": slugify("Hornbill Signature Massage"),
+    "Tapasya Signature Massage": slugify("Tapasya Signature Massage"),
     "Sports Massage / Deep Tissue": slugify("Sports Massage / Deep Tissue"),
     "Thai Traditional Massage": slugify("Traditional Thai Massage"),
-    "Hornbill Body Scrub & Wrap": slugify("Hornbill Body Scrub & Wrap"),
+    "Tapasya Body Scrub & Wrap": slugify("Tapasya Body Scrub & Wrap"),
     "Swedish Massage": slugify("Swedish Massage"),
-    "Hornbill Balinese": slugify("Hornbill Balinese Massage"),
-    "Hornbill Foot Fix": slugify("Hornbill Foot Fix (Reflexology)"),
+    "Tapasya Balinese": slugify("Tapasya Balinese Massage"),
+    "Tapasya Foot Fix": slugify("Tapasya Foot Fix (Reflexology)"),
     "Hot Stone Massage": slugify("Hot Stone Healing Therapy"),
     "Bamboo Massage": slugify("Warm Bamboo Therapy"),
     Facials: slugify("Advanced Radiance Facial"),
@@ -30,7 +30,7 @@ export function Footer() {
         <div className="flex flex-col items-center md:items-start">
           <img
             src="/logo-white.webp"
-            alt="Hornbill Spa & Wellness"
+            alt="Tapasya Spa & Wellness"
             width={420}
             height={240}
             loading="eager"
@@ -148,7 +148,7 @@ export function Footer() {
           style={{ fontSize: 13, color: "rgba(255,255,255,0.8)" }}
         >
           <p className="text-center md:text-left" style={{ color: "rgba(255,255,255,0.8)", fontSize: 13 }}>
-            © 2025 Hornbill Spa & Wellness. All rights reserved.
+            © 2025 Tapasya Spa & Wellness. All rights reserved.
           </p>
           <div className="flex gap-5 justify-center md:justify-end">
             <a href="#" className="hover:text-white transition" style={{ color: "rgba(255,255,255,0.8)" }}>

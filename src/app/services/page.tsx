@@ -62,10 +62,10 @@ const CATEGORIES: Category[] = [
   {
     id: "signature-and-fusion",
     title: "Signature & Fusion Treatments",
-    focus: "Unique experiences exclusive to Hornbill.",
+    focus: "Unique experiences exclusive to Tapasya.",
     treatments: [
       {
-        name: "Hornbill Signature Massage",
+        name: "Tapasya Signature Massage",
         priceLine: "₹3,750 (60 Min) · Price inclusive of all taxes",
         description:
           "Experience a masterfully choreographed therapy where our experts blend premium aroma oils for a full-body journey. Using a skillful combination of short and long strokes, this treatment targets deep-seated stress while restoring your body's natural energy flow. From the detailed foot reflexology to the calming head and face massage, every minute is designed to improve circulation and provide total rejuvenation.",
@@ -73,7 +73,7 @@ const CATEGORIES: Category[] = [
         bestFor: "Total relaxation, improving blood flow, and restoring energy balance.",
       },
       {
-        name: "Hornbill Balinese Massage",
+        name: "Tapasya Balinese Massage",
         priceLine: "₹3,200 (60 Min) · Prices inclusive of all taxes",
         description:
           "Experience a world-class fusion of traditional dry Thai stretching and the soothing flow of a medium-pressure oil massage. This unique therapy is specifically designed to provide the new energy your body needs after a long journey. By focusing on vital pressure points, our therapists help rebalance your internal energy while the oil-based strokes melt away muscle tension. It is the ideal choice for those who want the invigorating benefits of a Thai massage combined with the relaxation of an aromatic oil therapy.",
@@ -161,10 +161,10 @@ const CATEGORIES: Category[] = [
         bestFor: "Stress management, sleep improvement, and gentle full-body rejuvenation.",
       },
       {
-        name: "Hornbill Foot Fix (Reflexology)",
+        name: "Tapasya Foot Fix (Reflexology)",
         priceLine: "₹1,800 (60 Min) · Price inclusive of all taxes",
         description:
-          "In a land of treks and jungle safaris, your feet carry the weight of your adventure. Hornbill Foot Fix is a specialized reflexology session that goes beyond a simple rub. By stimulating specific pressure points throughout the foot, this ancient therapy triggers a healing response throughout the entire body. It is an essential treatment for restoring vital energy and finding relief after a long day of exploring Kumily's natural beauty.",
+          "In a land of treks and jungle safaris, your feet carry the weight of your adventure. Tapasya Foot Fix is a specialized reflexology session that goes beyond a simple rub. By stimulating specific pressure points throughout the foot, this ancient therapy triggers a healing response throughout the entire body. It is an essential treatment for restoring vital energy and finding relief after a long day of exploring Kumily's natural beauty.",
         inclusions: "30-minute intensive Reflexology session, aromatic foot soak, and refreshing finish.",
         recommended: "Relieving swollen or tired feet, improving blood circulation, and aiding digestive health.",
       },
@@ -176,7 +176,7 @@ const CATEGORIES: Category[] = [
     focus: "Exfoliation and professional skincare.",
     treatments: [
       {
-        name: "Hornbill Body Scrub & Wrap",
+        name: "Tapasya Body Scrub & Wrap",
         priceLine: "₹4,200 (60 Min) · Price inclusive of all taxes",
         description:
           "This dual-action treatment is the ultimate secret to soft, glowing skin. Choose between a Superfine Sea Salt or Organic Sugar base, expertly mixed with our signature aromatic essential oils. Our therapists perform a deep exfoliation to remove toxins and dead skin cells, followed by a nourishing wrap that locks in moisture. This session is designed to hydrate the deepest layers of your skin, leaving it feeling silk-smooth and completely refreshed.",
@@ -244,7 +244,7 @@ export default function ServicesPage() {
             Services & Therapies
           </h1>
           <p className="mt-5 mx-auto" style={{ color: "#d4c9b0", fontSize: 17, lineHeight: 1.8, maxWidth: 720 }}>
-            From signature fusions to globally proven techniques — every Hornbill treatment is designed to restore
+            From signature fusions to globally proven techniques — every Tapasya treatment is designed to restore
             balance, ease tension, and leave you feeling renewed.
           </p>
 
