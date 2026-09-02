@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Lovable App',
-  description: 'Hornbill Spa & Wellness offers a serene escape in Kumily, Kerala, blending Western, Ayurvedic, and Asian therapies.',
-  authors: [{ name: 'Lovable' }],
+  title: 'Tapasya is now Hornbill Spa',
+  description: 'Tapasya Spa is now Hornbill Spa & Wellness — the same trusted team in Kumily, Kerala, now in a new luxury space blending Western, Ayurvedic, and Asian therapies.',
+  authors: [{ name: 'Tapasya Spa' }],
   openGraph: {
-    title: 'Lovable App',
+    title: 'Tapasya is now Hornbill Spa',
     description: 'Hornbill Spa & Wellness offers a serene escape in Kumily, Kerala, blending Western, Ayurvedic, and Asian therapies.',
     type: 'website',
     images: ['https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3383f4f6-cd4c-481e-bbd7-cf86aeb69551/id-preview-714cd9f1--989f095b-2e78-4c95-8e38-ec67495a8d42.lovable.app-1776935000161.png'],
