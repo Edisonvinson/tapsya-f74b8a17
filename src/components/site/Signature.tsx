@@ -4,30 +4,30 @@ import { SIGNATURE, slugify } from "@/lib/data";
 import { useReveal } from "@/hooks/use-reveal";
 
 const CARD_IMAGES: Record<string, string> = {
-  "Hornbill Signature Massage": "https://www.graymatterdubai.com/wp-content/uploads/2026/04/Signature-scaled.jpeg",
+  "Tapasya Signature Massage": "https://www.graymatterdubai.com/wp-content/uploads/2026/04/Signature-scaled.jpeg",
   "Sports Massage / Deep Tissue": "https://www.graymatterdubai.com/wp-content/uploads/2026/04/Sports-scaled.jpeg",
-  "Hornbill Balinese Massage": "https://www.graymatterdubai.com/wp-content/uploads/2026/04/Balinese-scaled.jpeg",
+  "Tapasya Balinese Massage": "https://www.graymatterdubai.com/wp-content/uploads/2026/04/Balinese-scaled.jpeg",
   "Facials": "https://www.graymatterdubai.com/wp-content/uploads/2026/04/Facial-scaled.jpeg",
 };
 
 const CARD_TINTS: Record<string, string> = {
-  "Hornbill Signature Massage": "#d8efe4",
+  "Tapasya Signature Massage": "#d8efe4",
   "Sports Massage / Deep Tissue": "#fde6d4",
-  "Hornbill Balinese Massage": "#f3e6d2",
+  "Tapasya Balinese Massage": "#f3e6d2",
   "Facials": "#f6dfe1",
 };
 
 const CARD_CHIPS: Record<string, [string, string]> = {
-  "Hornbill Signature Massage": ["Signature", "Full Body"],
+  "Tapasya Signature Massage": ["Signature", "Full Body"],
   "Sports Massage / Deep Tissue": ["Deep Tissue", "Recovery"],
-  "Hornbill Balinese Massage": ["Balinese", "Oil + Dry"],
+  "Tapasya Balinese Massage": ["Balinese", "Oil + Dry"],
   "Facials": ["Skin Care", "Radiance"],
 };
 
 const KNOW_MORE_SLUG: Record<string, string> = {
-  "Hornbill Signature Massage": slugify("Hornbill Signature Massage"),
+  "Tapasya Signature Massage": slugify("Tapasya Signature Massage"),
   "Sports Massage / Deep Tissue": slugify("Sports Massage / Deep Tissue"),
-  "Hornbill Balinese Massage": slugify("Hornbill Balinese Massage"),
+  "Tapasya Balinese Massage": slugify("Tapasya Balinese Massage"),
   "Facials": slugify("Advanced Radiance Facial"),
 };
 

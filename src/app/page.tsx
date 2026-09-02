@@ -10,10 +10,10 @@ import { Footer } from "@/components/site/Footer";
 import { WhatsAppWidget } from "@/components/site/WhatsAppWidget";
 
 export const metadata = {
-  title: "Hornbill Spa & Wellness — Kumily, Thekkady",
-  description: "Hornbill Spa & Wellness in Kumily, Thekkady — Western, Ayurvedic & Asian massage therapies. Hot stone, bamboo, Balinese, Thai, facials & more. Book on WhatsApp.",
+  title: "Tapasya is now Hornbill Spa",
+  description: "Tapasya Spa is now Hornbill Spa & Wellness in Kumily, Thekkady — the same trusted team, now in a new luxury space. Western, Ayurvedic & Asian therapies. Book on WhatsApp.",
   openGraph: {
-    title: "Hornbill Spa & Wellness — Kumily, Thekkady",
+    title: "Tapasya is now Hornbill Spa",
     description: "Kumily's trusted spa for Western, Ayurvedic & Asian therapies. Steps from the Elephant Camp & Periyar boat counter.",
   }
 };
