@@ -5,12 +5,12 @@ import { WHATSAPP_BASE } from "@/lib/data";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 export const metadata = {
-  title: "About Us — Tapasya Spa & Wellness, Kumily",
+  title: "About Us — Hornbill Spa (formerly Tapasya Spa), Kumily",
   description:
-    "Learn about Tapasya Spa & Wellness in Kumily, Thekkady — a wellness destination offering Western, Ayurvedic and Asian massage therapies in a calm, professional setting.",
+    "Learn about Hornbill Spa — formerly Tapasya Spa — in Kumily, Thekkady: a wellness destination offering Western, Ayurvedic and Asian massage therapies in a calm, professional setting.",
   openGraph: {
-    title: "About Us — Tapasya Spa & Wellness",
-    description: "A wellness destination in Kumily offering Western and Asian therapies for travelers and guests.",
+    title: "About Us — Hornbill Spa (formerly Tapasya Spa)",
+    description: "Tapasya is now Hornbill Spa — a wellness destination in Kumily offering Western and Asian therapies for travelers and guests.",
   },
 };
 
