@@ -2,21 +2,44 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Tapasya is now Hornbill Spa',
-  description: 'Tapasya Spa is now Hornbill Spa & Wellness — the same trusted team in Kumily, Kerala, now in a new luxury space blending Western, Ayurvedic, and Asian therapies.',
-  authors: [{ name: 'Tapasya Spa' }],
+  title: 'Tapasya is Now Hornbill Spa | Spa & Wellness',
+  description:
+    'Tapasya is now Hornbill Spa — a wellness destination in Kumily, Thekkady offering relaxing Western and Asian massage therapies. Call +91 75111 93223.',
+  authors: [{ name: 'Hornbill Spa' }],
   openGraph: {
-    title: 'Tapasya is now Hornbill Spa',
-    description: 'Tapasya Spa is now Hornbill Spa & Wellness — the same trusted team in Kumily, Kerala, now in a new luxury space blending Western, Ayurvedic, and Asian therapies.',
+    title: 'Tapasya is Now Hornbill Spa | Spa & Wellness',
+    description:
+      'Tapasya is now Hornbill Spa — a wellness destination in Kumily, Thekkady offering relaxing Western and Asian massage therapies. Call +91 75111 93223.',
     type: 'website',
     images: ['https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3383f4f6-cd4c-481e-bbd7-cf86aeb69551/id-preview-714cd9f1--989f095b-2e78-4c95-8e38-ec67495a8d42.lovable.app-1776935000161.png'],
   },
   twitter: {
     card: 'summary',
     site: '@Lovable',
-    title: 'Tapasya is now Hornbill Spa',
-    description: 'Tapasya Spa is now Hornbill Spa & Wellness — the same trusted team in Kumily, Kerala, now in a new luxury space blending Western, Ayurvedic, and Asian therapies.',
+    title: 'Tapasya is Now Hornbill Spa | Spa & Wellness',
+    description:
+      'Tapasya is now Hornbill Spa — a wellness destination in Kumily, Thekkady offering relaxing Western and Asian massage therapies. Call +91 75111 93223.',
     images: ['https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3383f4f6-cd4c-481e-bbd7-cf86aeb69551/id-preview-714cd9f1--989f095b-2e78-4c95-8e38-ec67495a8d42.lovable.app-1776935000161.png'],
+  },
+};
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'HealthAndBeautyBusiness',
+  name: 'Hornbill Spa',
+  alternateName: 'Tapasya Spa',
+  description:
+    'Tapasya is now Hornbill Spa — a wellness destination in Kumily, Thekkady offering relaxing Western and Asian massage therapies.',
+  telephone: '+91 75111 93223',
+  email: 'info@hornbillspa.com',
+  url: 'https://www.hornbillspa.com/',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Opp. South Indian Bank, NH 183, Kulathupalam',
+    addressLocality: 'Kumily',
+    addressRegion: 'Kerala',
+    postalCode: '685 509',
+    addressCountry: 'IN',
   },
 };
 
@@ -36,6 +59,10 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png?v=2" />
         <link rel="manifest" href="/site.webmanifest?v=2" />
         <meta name="google-site-verification" content="s8uMjojSU-kNaBbsLCuTbORw5_QElTprOS_UIpyF_jM" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
